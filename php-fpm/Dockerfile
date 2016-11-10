@@ -19,7 +19,10 @@ RUN apk add --update \
     php5-pdo_mysql \
     php5-mysqli \
     php5-xml \
-    php5-zlib
+    php5-zlib \
+    php5-dom \
+    php5-ctype \
+    php5-phar
 
 RUN rm -rf /var/cache/apk/* && rm -rf /tmp/*
 
